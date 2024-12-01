@@ -17,17 +17,20 @@ document.addEventListener('DOMContentLoaded', function() {
             sidebar.setAttribute('toggle', "open");
         }
 
+        document.querySelector('.topButton').addEventListener('click', function (e) {
+            e.preventDefault(); // Prevent default anchor click behavior
+        
+                // Scroll to the target element
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth' // Enable smooth scroll
+                });
+        });
+        
         document.querySelector('.home').addEventListener('click', function (e) {
-    e.preventDefault(); // Prevent the default anchor behavior
-
-    // Smooth scroll effect
-    window.scrollTo({
-        top: 0, // Scroll to the top of the page
-        behavior: 'smooth' // Smooth scrolling
-    });
-
-    // Wait for the scroll to finish before navigatingW
-
+            e.preventDefault();
+            window.location.href = 'index.html';
+        });
+        
 
     });
 });

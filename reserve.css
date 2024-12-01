@@ -100,14 +100,9 @@ body {
     transform: scale(0.95);
 }
 
-#homebutton {
+.home {
+    cursor: pointer;
     height: 1.5rem;
     width: 1.5rem;
     aspect-ratio: 1/1;
-}
-
-.home {
-    cursor: pointer;
-    height: 100%;
-    width: 100%;
 }

@@ -612,3 +612,8 @@ body {
 .menuicon.close {
     opacity: 0;
 }
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-out; /* Adjust duration here */
+}
