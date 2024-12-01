@@ -73,6 +73,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     aspect-ratio: 1/1;
+    height: 2rem;
     width: 2rem;
 }
 
