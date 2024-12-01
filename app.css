@@ -459,62 +459,62 @@ body {
     margin-bottom: 1.5rem;
 }
 
-.flexIcons:nth-child(1) {
+.fb-page {
     font-size: 2rem;
     margin-inline: 0.5rem;
     color: rgba(255, 255, 255, 0.75);
     cursor: pointer;
 }
 
-.flexIcons:nth-child(1):hover {
+.fb-page:hover {
     color: #f1c40f;
     transform: translate(0,-5px);
 }
 
-.flexIcons:nth-child(2) {
+.ig-page {
     font-size: 2rem;
     margin-inline: 0.5rem;
     color: rgba(255, 255, 255, 0.75);
     cursor: pointer;
 }
 
-.flexIcons:nth-child(2):hover {
+.ig-page:hover {
     color: #f1c40f;
     transform: translate(0,-5px);
 }
 
-.flexIcons:nth-child(3) {
+.twt-page {
     font-size: 2rem;
     margin-inline: 0.5rem;
     color: rgba(255, 255, 255, 0.75);
     cursor: pointer;
 }
 
-.flexIcons:nth-child(3):hover {
+.twt-page:hover {
     color: #f1c40f;
     transform: translate(0,-5px);
 }
 
-.flexIcons:nth-child(4) {
+.yt-page {
     font-size: 2rem;
     margin-inline: 0.5rem;
     color: rgba(255, 255, 255, 0.75);
     cursor: pointer;
 }
 
-.flexIcons:nth-child(4):hover {
+.yt-page:hover {
     color: #f1c40f;
     transform: translate(0,-5px);
 }
 
-.flexIcons:nth-child(5) {
+.lkin-page {
     font-size: 2rem;
     margin-inline: 0.5rem;
     color: rgba(255, 255, 255, 0.75);
     cursor: pointer;
 }
 
-.flexIcons:nth-child(5):hover {
+.lkin-page:hover {
     color: #f1c40f;
     transform: translate(0,-5px);
 }
