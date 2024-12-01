@@ -10,19 +10,25 @@
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="VA Services provides top quality Virtual Assistance unlike any other.">
+
+<style>
+        body {font-family: 'Montserrat', sans-serif;}
+</style>
+
 <div class="header">
     <div class="headerContent">
-        <div class="menu" id="menuButton">
-            <img class="menuIcon" src="assets/menu.svg">
+        <div class="menuicon" id="menuicon">
+            <img class="menu" src="assets/menu.svg" alt="menu-button">
         </div>
-        <div class="logo">
-            <p>VA Services</p>
-        </div>
-        <a href="index.html" class="reserve">RESERVATION</a>
+        <img class="logo" src="assets/wide_icon.png" alt="VA-Icon">
+    </img>
+        <a href="index.html" class="reserve">RESERVE</a>
     </div>
 </div>
 
-<div class="menu-container">
+<div class="menu-container" defer>
     <div class="sidebar" id="sidebar">
         <div class="sidebar-content">
             <a href="index.html" class="topButton">Home</a>
@@ -34,6 +40,7 @@
 </div>
 
 <body>
+
     <div class="dynamic-bg"></div>
 
     <div class="welcomer">
@@ -45,45 +52,44 @@
         <p class="contactus">Contact Us</p>
     </div>
 
-    <div class="ourservices">
+    <div class="ourservices" defer>
         <h1 class="DivHead">Our Services</h1>
         <p class="DivDesc">Our services are top tier bla bla bla</p>
 
         <div class="services">
-            <div class="service" style="background-image: url('assets/seoExample.jfif');">
+            <div class="service" style="background-image: linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,0.75)), url('assets/seoExample.jfif');">
                 <div class="serviceText">
-                    <h3>Search Engine Optimization</h3>
+                    <h2>Search Engine Optimization</h2>
                     <p>Boost your online presence and drive organic traffic with expert SEO strategies for top search engine rankings!</p>
                 </div>
             </div>
-            <div class="service" style="background-image: url('assets/vaExample.jfif');">
+            <div class="service" style="background-image: linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,0.75)), url('assets/vaExample.jfif');">
                 <div class="serviceText">
-                    <h3>General Virtual Assistance
-                    </h3>
+                    <h2>General Virtual Assistance</h2>
                     <p>Streamline your day with our General VA services, handling admin tasks like email management and scheduling, so you can focus on growing your business!</p>
                 </div>
             </div>
-            <div class="service" style="background-image: url('assets/smmExample.jfif');">
+            <div class="service" style="background-image: linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,0.75)), url('assets/smmExample.jfif');">
                 <div class="serviceText">
-                    <h3>Social Media Management</h3>
+                    <h2>Social Media Management</h2>
                     <p>Elevate your brand with our expert SMM services—engaging content, seamless management, and stronger connections across all platforms!</p>
                 </div>
             </div>
-            <div class="service" style="background-image: url('assets/wdExample.jfif');">
+            <div class="service" style="background-image: linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,0.75)), url('assets/wdExample.jfif');">
                 <div class="serviceText">
-                    <h3>Web Development Paragraph</h3>
+                    <h2>Web Development Paragraph</h2>
                     <p>From sleek websites to powerful web apps, our development team crafts stunning, user-friendly, and responsive solutions tailored to your needs!</p>
                 </div>
             </div>
         </div>
     </div>
 
-<div class="whyChooseUs">
+<div class="whyChooseUs" defer>
     <h1 class="DivHead">Why Choose Us?</h1>
     <div class="cards">
         <div class="card">
             <div class="cardText">
-                <h3>Experienced Professionals</h3>
+                <h1>Experienced Professionals</h1>
                 <i class="small-line"></i>
                 <p>Our team consists of skilled professionals with years of experience in their respective fields.</p>
             </div>
@@ -91,7 +97,7 @@
 
         <div class="card">
             <div class="cardText">
-                <h3>Customized Solutions</h3>
+                <h1>Customized Solutions</h1>
                 <i class="small-line"></i>
                 <p>We understand that every business is unique, and we tailor our services to meet your specific needs.</p>
             </div>
@@ -99,7 +105,7 @@
 
         <div class="card">
             <div class="cardText">
-                <h3>Affordable Pricing                </h3>
+                <h1>Affordable Pricing                </h1>
                 <i class="small-line"></i>
                 <p>Quality services shouldn’t break the bank. We offer competitive pricing to ensure you get the best value for your investment.</p>
             </div>
@@ -107,7 +113,7 @@
 
         <div class="card">
             <div class="cardText">
-                <h3>Customer Satisfaction                </h3>
+                <h1>Customer Satisfaction                </h1>
                 <i class="small-line"></i>
                 <p>Your satisfaction is our top priority. We strive to exceed your expectations with every project.                </p>
             </div>
@@ -116,7 +122,7 @@
     </div>
 </div>
 
-<div class="testimonials">
+<div class="testimonials" defer>
     <h1 class="DivHead">What Our Clients Say</h1>
     <div class="testimonialCards">
         <div class="testimonialCard">
@@ -124,7 +130,7 @@
                 <img src="assets/pfp1.jpg" alt="John Doe" class="testimonialImage">
                 <p>"This service has completely transformed our online presence! The team is professional, responsive, and always goes above and beyond."</p>
                 <div class="testimonialAuthor">
-                    <h4>John Doe</h4>
+                    <h1>John Doe</h1>
                     <p>CEO, Company Name</p>
                 </div>
             </div>
@@ -134,7 +140,7 @@
                 <img src="assets/pfp2.jpg" alt="Jane Smith" class="testimonialImage">
                 <p>"We saw immediate results after using their services. Our traffic increased, and the support we received was top-notch!"</p>
                 <div class="testimonialAuthor">
-                    <h4>Jane Smith</h4>
+                    <h1>Jane Smith</h1>
                     <p>Marketing Director, Brand X</p>
                 </div>
             </div>
@@ -144,7 +150,7 @@
                 <img src="assets/pfp3.jpg" alt="Michael Lee" class="testimonialImage">
                 <p>"Highly recommend! The team helped us boost our brand visibility and gave us expert advice every step of the way."</p>
                 <div class="testimonialAuthor">
-                    <h4>Michael Lee</h4>
+                    <h1>Michael Lee</h1>
                     <p>Founder, Startup Y</p>
                 </div>
             </div>
@@ -152,29 +158,24 @@
     </div>
 </div>
 
-<div class="aboutus">
-    <div class="abHalf">
-        <div class="abtUsImg"></div>
-    </div>
-    <div class="abHalf">
-        <h1 class="DivHead">About Us</h1>
+<div class="aboutus" defer>
+    <h1 class="abtUsHd">About Us</h1>
         <p class="abtUsPg">VAServices.tech was established in April 2024 by a dedicated group of professionals from the BPO industry. Our founding team includes experienced Team Managers, Team Leaders, Report Analysts, and Graphic Designers who have honed their skills in various domains such as SEO, General Virtual Assistance, Lead Generation, Video Editing, and Social Media Management (SMM).<br><br><br>Our mission is to provide comprehensive virtual assistance services that help businesses thrive in the digital landscape. With a strong foundation in BPO and a passion for continuous learning, we are committed to delivering high-quality, customized solutions to meet the unique needs of our clients.<br><br><br></p>
         <a class="abtUsPg" href="index.html" style="font-weight:bold;">Our Story</a>
-    </div>
 </div>
 
-<div class="footer">
+<div class="footer" defer>
     <div class="VA-Icon"></div>
     <div class="footerTexts">
         <h1 class="ourLocH">Our Location</h1>
         <div class="ourLoc"><i class="locationIcon" icon-name="map-pin"></i><p class="location">Pasig, Metro Manila Philippines</p></div>
     </div>
     <div class="flexIcons">
-        <a href="www.facebook.com" class="bottomIcon" icon-name="facebook"></a>
-        <a href="www.instagram.com" class="bottomIcon" icon-name="instagram"></a>
-        <a href="www.twitter.com" class="bottomIcon" icon-name="twitter"></a>
-        <a href="www.youtube.com" class="bottomIcon" icon-name="youtube"></a>
-        <a href="www.linkedin.com" class="bottomIcon" icon-name="linkedin"></a>
+        <a href="www.facebook.com" class="fb-page" icon-name="facebook"></a>
+        <a href="www.instagram.com" class="ig-page" icon-name="instagram"></a>
+        <a href="www.twitter.com" class="twt-page" icon-name="twitter"></a>
+        <a href="www.youtube.com" class="yt-page" icon-name="youtube"></a>
+        <a href="www.linkedin.com" class="lkin-page" icon-name="linkedin"></a>
     </div>
     <div class="copyrights">
         <div class="small-line"></div>
@@ -183,9 +184,9 @@
     </div>
 </div>
 
-<script>
+<script defer>
     lucide.createIcons();
 </script>
-<script src="app.js"></script>
+<script src="app.js" defer></script>
 </body>
 </html>
