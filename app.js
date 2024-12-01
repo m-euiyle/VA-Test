@@ -26,11 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
         behavior: 'smooth' // Smooth scrolling
     });
 
-    // Wait for the scroll to finish before navigating
-    setTimeout(() => {
-        window.location.href = 'index.html'; // Navigate to index.html
-    }, 500); // Adjust delay based on scroll duration
-});
+    // Wait for the scroll to finish before navigatingW
 
 
     });
