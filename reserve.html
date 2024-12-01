@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation | VA Services</title>
+    <link rel="shortcut icon" type="image/png" href="assets/wide_icon.png">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="reserve.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div class="dynamic-bg"></div>
+
+    <div class="header">
+        <div class="headerContent">
+            <div id="homebutton"><a href="index.html" class="home" icon-name="arrow-left" style="color: white;"></a></div>
+            <img class="logo" src="assets/wide_icon.png" alt="VA Icon">
+        </div>
+    </div>
+
+    <div class="createReserveDiv">
+        <form class="createReserve">
+            <h1 class="reserveHeader">Create a Reservation</h1>
+            <div class="inputBox">
+                <input type="text" placeholder="Name (ex. John Doe)" required aria-label="Name">
+                <i class="icon" icon-name="user" style="color: rgba(255, 255, 255, 0.7)"></i>
+            </div>
+            <div class="inputBox">
+                <input type="email" placeholder="Email (ex. example@mail.com)" required aria-label="Email">
+                <i class="icon" icon-name="mail" style="color: rgba(255, 255, 255, 0.7)"></i>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="app.js" defer></script>
+</body>
+
+</html>

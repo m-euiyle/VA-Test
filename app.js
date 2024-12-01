@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
         
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                document.querySelector(this.getAttribute('href')).scrollIntoView({  
                     behavior: 'smooth'
                 });
             });

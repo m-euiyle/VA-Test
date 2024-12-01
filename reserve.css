@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+/* General Styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Reservation Container */
+.createReserveDiv {
+    z-index: 6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-inline: 20%;
+    padding-block: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Optional for backdrop */
+}
+
+/* Reservation Form */
+.createReserve {
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.reserveHeader {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+.inputBox {
+    position: relative;
+    width: 75%;
+    margin-top: 1rem;
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    background: transparent;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+}
+
+.inputBox input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 300;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Submit Button */
+.btn {
+    margin-top: 1.5rem;
+    padding: 0.75rem 3rem;
+    color: white;
+    background: linear-gradient(0,#1934a8,#264eff);
+    border: none;
+    border-radius: 2.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+#homebutton {
+    height: 1.5rem;
+    width: 1.5rem;
+    aspect-ratio: 1/1;
+}
+
+.home {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
