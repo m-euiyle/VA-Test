@@ -192,7 +192,7 @@ body {
     border: solid #000 1px;
 
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     width: 300px;
     min-height: fit-content;
     height: 250px;
