@@ -17,15 +17,21 @@ document.addEventListener('DOMContentLoaded', function() {
             sidebar.setAttribute('toggle', "open");
         }
 
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-        
-                document.querySelector(this.getAttribute('href')).scrollIntoView({  
-                    behavior: 'smooth'
-                });
-            });
-        });
+        document.querySelector('.home').addEventListener('click', function (e) {
+    e.preventDefault(); // Prevent the default anchor behavior
+
+    // Smooth scroll effect
+    window.scrollTo({
+        top: 0, // Scroll to the top of the page
+        behavior: 'smooth' // Smooth scrolling
+    });
+
+    // Wait for the scroll to finish before navigating
+    setTimeout(() => {
+        window.location.href = 'index.html'; // Navigate to index.html
+    }, 500); // Adjust delay based on scroll duration
+});
+
 
     });
 });
